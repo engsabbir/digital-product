@@ -107,3 +107,52 @@ body{
     color: #e84118;
     background-color: rgb(0, 0, 0);
 }
+/* our-services-section */
+.our-services-section{
+    color: white;
+    background-image: url('images/background.png'), linear-gradient(45deg, rgb(0,0,0), rgb(55, 55, 55));
+    padding-bottom: 4rem;
+}
+.our-services-section h1{
+    font-size: 3rem;
+    text-align: center;
+    padding: 5rem;
+}
+.services-list{
+    display: flex;
+    justify-content: space-around;
+}
+.service{
+    width: 20%;
+    /* align-items: center; */
+    text-align: center;
+    /* margin-bottom: 100px; */
+    padding: 2rem;
+    background-image: linear-gradient(45deg, rgb(0,0,0), rgb(141, 128, 138));
+    border-radius: 20px;
+}
+.service img{
+    width: 100px;
+}
+.service h2{
+    margin: 20px 0;
+}
+.service p{
+    text-align: justify;
+}
+.service button{
+    margin-top: 1.5rem;
+    padding: 10px 15px;
+    background-color: gray;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.service button:hover{
+    color: #e84118;
+    background-color: white;
+}
+/* useful links  */
