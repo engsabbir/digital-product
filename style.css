@@ -190,6 +190,9 @@ body{
 .link li:hover{
     color: #F7CD2E;
 }
+.link h4{
+    margin: 20px 0px;
+}
 .footer-info{
     margin-top: 2rem;
 }
@@ -208,4 +211,5 @@ body{
 }
 .footer-text p{
     font-size: 12px;
+    margin-top: 20px;
 }
